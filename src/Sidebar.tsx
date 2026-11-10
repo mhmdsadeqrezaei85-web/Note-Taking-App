@@ -29,8 +29,32 @@ function Sidebar() {
                 </div>
             </div>
             <div className='border-t border-gray-300 mx-8'></div>
-            <div className='h-1/2 flex items-end'>
-                <div className='flex w-72 h-12 justify-center items-center'><SettingIcon /></div>
+            <div className='h-1/2 flex flex-col'>
+                <div className='flex justify-center text-gray-500'>categories</div>
+
+                <div className='flex flex-col cursor-default select-none gap-6 w-full'>
+                
+                    <div className='flex w-full h-12 items-center'>
+                        <div className='w-4 h-4 rounded-full bg-amber-400 mx-4'></div>
+                        <div>job</div>
+                    </div>
+
+                    <div className='flex w-full h-12 items-center'>
+                        <div className='w-4 h-4 rounded-full bg-blue-400 mx-4'></div>
+                        <div>home</div>
+                    </div>
+
+                    <div className='flex w-full h-12 items-center'>
+                        <div className='w-4 h-4 rounded-full bg-green-400 mx-4'></div>
+                        <div>other</div>
+                    </div>
+
+                </div>
+
+
+                <div className='mt-auto'>
+                    <div className='flex w-72 h-12 justify-center items-center'><SettingIcon /></div>
+                </div>
             </div>
         </Fragment>
     )
