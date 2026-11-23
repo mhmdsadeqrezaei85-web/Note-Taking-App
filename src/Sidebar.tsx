@@ -1,7 +1,6 @@
 import { Fragment } from 'react/jsx-runtime';
 import './App.css'
 import { AllNetesIcon, PinedIcon, SettingIcon, TrashIcon } from './icons';
-
 function Sidebar() {
     return (
         <Fragment>
@@ -32,12 +31,12 @@ function Sidebar() {
             <div className='h-1/2 flex flex-col'>
                 <div className='flex justify-center text-gray-500'>categories</div>
 
-                <div className='flex flex-col cursor-default select-none gap-6 w-full'>
+                <div className='flex flex-col cursor-default select-none gap-6 w-full mt-12'>
                 
-                    <div className='flex w-full h-12 items-center'>
-                        <div className='w-4 h-4 rounded-full bg-amber-400 mx-4'></div>
-                        <div>job</div>
-                    </div>
+                        <div className='flex w-full h-12 items-center'>                   
+                            <div className='w-4 h-4 rounded-full bg-amber-400 mx-4'></div>
+                            <div>job</div>                                                
+                        </div>
 
                     <div className='flex w-full h-12 items-center'>
                         <div className='w-4 h-4 rounded-full bg-blue-400 mx-4'></div>
